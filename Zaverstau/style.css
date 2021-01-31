@@ -1,0 +1,453 @@
+body
+{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+h2
+{
+    font-family: Spectral SC;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px; 
+    text-align: center;
+}
+nav a
+{
+    font-weight: 400;
+    font-size:18px;
+}
+.menu{
+    display: flex;
+   width: 100%;
+   height: 581px;
+   align-items: flex-start;
+   padding-top: 20px;
+}
+.menu_back
+{
+    background:url("Images_Desktop_1/sonnie-hiles-gG70fyu3qsg-unsplash 1.png") no-repeat;
+    background-size: cover;
+}
+
+.menu img
+{
+    margin-left:120px;
+    margin-right: 360px;
+    padding-top: 0;
+}
+
+.menu nav a
+{
+padding-right: 83px;
+font-family: Open Sans;
+font-size: 18px;
+line-height: 25px;
+color: #2E2F22;
+text-decoration: none;
+}
+
+.about_me_italic
+{
+    font-family: Open Sans;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 40px; 
+    border-left: 3px solid #D7D1C9;
+    padding-left: 20px;
+    margin-top: 38px;
+    float:right;
+}
+.about-me
+{
+    display:flex;
+    margin-left: 120px;
+}
+
+.about-me img{
+   
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    align-self: flex-start;
+}
+
+.about_me_all_text
+{
+    margin-left:40px;
+    margin-right: 150px;
+}
+.data
+{
+    display:flex;
+    flex-direction: column;   
+    background:url("Images_Desktop_1/annie-spratt--5-ZN1vzVTQ-unsplash 1.png") no-repeat;
+    background-size: cover;
+    height: 537px;
+    width: 896px;
+    border-radius: 20px;
+    align-items: flex-start;
+    padding:50px 80px;
+    margin:0 auto;
+   
+}
+
+.data label{
+font-family: Spectral SC;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+
+}
+
+.data_about
+{
+    display: flex;
+    padding-right: 20px;
+}
+
+.data input, .data textarea{
+border-radius: 7px; 
+width:407px;
+height:63px;
+font-family: Open Sans;
+font-size: 16px;
+line-height: 22px;
+margin-top: 12px;
+margin-right: 20px;
+}
+.data textarea
+{
+ height:293px;
+ width: 837px;
+}
+.button_send
+{
+    align-self: center;
+    font-family: Open Sans;
+font-size: 16px;
+line-height: 22px;
+text-transform: uppercase;
+}
+.foot
+{
+    background-color: #D7D1C9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 181px;
+    margin-top: 81px;
+}
+.foot a{
+    padding-right: 120px;
+    font-family: Open Sans;
+font-size: 18px;
+line-height: 25px;
+color: #2E2F22;
+text-decoration: none;
+}
+.portfolio{
+display:flex;
+margin: 50px 120px;
+text-align: center;
+justify-content: center;
+}
+
+.portfolio div{
+    margin-right: 20px;
+    width: 30%;
+    height: 535px;
+    border-radius: 8px;
+    padding:20px;
+}
+
+.portfolio h3{
+    margin-top:140px;
+    font-family: Spectral SC;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+}
+
+.portfolio h4{
+    margin-top:44px;
+    font-family: Spectral SC;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+}
+
+.portfolio p{
+    font-family: Open Sans;
+font-size: 16px;
+line-height: 26px;
+}
+
+.portfolio_1
+{
+    background:url("Images_Desktop_1/image 8.png") no-repeat;
+    background-size: cover;
+}
+.portfolio_2
+{
+    background:url("Images_Desktop_1/image 7.png") no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+.portfolio_3
+{
+    background:url("Images_Desktop_1/image 9.png") no-repeat;
+    background-size: cover;
+}
+.see_more
+{
+font-family: Open Sans;
+font-size: 16px;
+line-height: 22px;
+text-transform: uppercase;
+padding:12px 51px;
+border-radius: 8px;
+display: flex;
+margin: 100px auto;
+}
+
+.all_article_top h2{
+    float: left;
+}
+.all_article_top form{
+    float: right;;
+}
+.articles
+{
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+.theme
+{
+    background: #D7D1C9;
+border-radius: 10px;
+font-family: Open Sans;
+font-size: 16px;
+line-height: 22px;
+margin-top: 40px;
+padding:5px 20px;
+}
+.section_articles
+{
+    margin: 40px 50px;
+    margin-bottom:0px;
+}
+.articles h3{
+    font-family: Spectral SC;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.article p{
+font-family: Open Sans;
+font-size: 16px;
+line-height: 26px;
+}
+.article span, .article time 
+{
+font-family: Open Sans;
+font-size: 16px;
+line-height: 26px;
+color: rgba(46, 47, 34, 0.7);
+}
+
+.article{
+    min-width: 20%;
+    flex-basis:30%;
+    max-width: 50%;
+    padding-right: 30px;
+    padding-bottom: 80px;
+}
+
+.article img
+{
+    border-radius: 8px;
+}
+.article .tags, .article .tag
+{
+    float: left;
+    margin-top: 0;
+}
+
+.article time
+{
+    float:right;
+}
+
+.article_2
+{
+    flex-grow: 1;
+}
+
+
+.section_articles .see_more
+{
+    text-transform: none;
+}
+
+.menu_2
+{
+    background: url("Images_Desktop_1/samuel-scrimshaw-rJc1RioyERQ-unsplash 1.png") no-repeat;
+    background-size: cover;
+}
+button
+{
+   border: none;
+   background-color:white;
+}
+
+.body_of_article
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:0 13%;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    margin: 3% 0;
+}
+.left_buttons
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button_2 span
+{
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+}
+
+.comments
+{
+    background: #ECE1E1;
+    border-radius: 10px;
+}
+.comments ol
+{
+    list-style-type: none;
+    padding: 50px 130px;
+}
+li .name
+{
+    display: flex;
+    align-items: flex-start;
+}
+li .name p
+{
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.comment-list li
+{
+    padding-bottom: 25px;
+    
+}
+
+.com
+{
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+text-align: left;
+}
+
+.big_form
+{
+    margin-left:100px;
+}
+
+.form_comments
+{
+    display: flex;
+}
+
+.comments_left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:60%;
+}
+.comments_left label{
+    margin-top: 20px;
+    float:left;
+    width:100%;
+}
+.comments_left .button_submit
+{
+    margin-top: 30px ;
+    padding:10px 0;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #202117;
+}
+
+textarea.comment-field
+{
+    margin-left:80px;
+    width:100%;
+    border: 1px solid #2E2F22;
+border-radius: 10px;
+}
+.fields
+{
+    float:right;
+    border: none;
+    padding:10px 0;
+    border-bottom: 1px solid #2E2F22;
+}
+.like
+{
+    background:url("Images_Desktop_1/Like.png") no-repeat;
+    width:95px;
+}
+
+.added
+{
+    background:url("Images_Desktop_1/Like_add.png") no-repeat;
+}
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
+.like .likes-number
+{
+float:right;
+font-weight: bolder;
+color:red;
+font-size:36px;
+font-family: Open Sans;
+}
+
+.hidden
+{
+    display:none;
+}
+.warning
+{
+    color:red;
+}
+

@@ -1,0 +1,183 @@
+<!Doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Портфолио</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Spectral+SC:wght@200&display=swap" rel="stylesheet">     
+    </head>
+<body>
+    <header>
+        <div class="menu menu_back">
+            <img src="Images_Desktop_1\Ресурс 5 1.png">
+        <nav>
+            <a href="#id_articles">Статьи</a>
+            <a href="#id_about_me">Обо мне</a>
+            <a href="#id_portfolio">Портфолио</a>
+            <a href="#write_form">Написать мне</a>
+        </nav>
+    </div>
+    </header>
+    <main>
+        <section class="section_articles" id="id_articles">
+            <div class="all_article">
+                <div class="all_article_top">
+            <h2>Все статьи</h2>
+            <form>
+                <select name="theme" class="theme" id="id_theme"  >
+                    <option value="all_articles">Все статьи</option>
+                    <option value="travels">Путешествия</option>
+                    <option value="city">Город</option>
+                    <option value="books">Книги</option>
+                    <option value="photos">Фотографии</option>
+                    <option value="recepies">Рецепты</option>
+                </select>
+            </form>
+            </div>
+            <div class="articles">
+                <article class="article "data-category='travels' id="travel">
+                <img src="Images_Desktop_1/image 1.png" alt="Путушествие в Берлин"> 
+                <h3>Путешествие в Берлин в августе</h3>
+                <p>Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</p>
+                <span class="tag">Теги: </span> 
+                <span class="tags">путешествия</span>
+                <time>29.09.2020</time>
+                </article>
+            <article class="article" data-category='city'>
+                <img src="Images_Desktop_1/image 2.png" alt="Колдбрю в Москве"> 
+                <h3>Где выпить колдбрю в Москве</h3>
+                <p>Собрала для вас список любимых кофеен, где подают лучший летний напиток.</p>
+                <span class="tag">Теги: </span> 
+                <span class="tags">город</span>
+                <time>24.07.2020</time>
+            </article>
+            <article class="article" data-category='books'>
+                <img src="Images_Desktop_1/image 3.png" alt="Книжные рекомендации"> 
+                <h3>Прочитано: книжные рекомендации</h3>
+                <p>Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
+                <span class="tag">Теги: </span> 
+                <span class="tags">книги</span>
+                <time>15.07.2020</time>
+            </article>
+            <article class="article article_2" data-category='photos'>
+                <img src="Images_Desktop_1/image 4.png" alt="Снимки на пленку"> 
+                <div class='last_article'>
+                <h3>Снимки на плёнку</h3>
+                <p>Поделилась с вами весенними фотографиями, и секретами удачных снимков.</p>
+                <span class="tag">Теги: </span> 
+                <span class="tags">фотографии</span>
+                <time>29.06.2020</time>
+            </div>
+            </article>
+            <article class="article article_2" data-category='recepies'>
+                <img src="Images_Desktop_1/image 5.png" alt="Домашний чизкейк"> 
+                <h3>Домашний чизкейк</h3>
+                <p>Что может быть лучше чизкейка с сезонными ягодами? Только домашний чизкейк!</p>
+                <span class="tag">Теги: </span> 
+                <span class="tags">рецепты</span>
+                <time>24.06.2020</time>
+            </article>
+            </div>
+            </div>
+            <form>
+                <input type="submit" value="Показать еще" class="see_more" >           
+            </form>
+        </section>
+        <section id="id_about_me">
+            <h2>Обо мне</h2>
+            <div class="about-me">
+            <img src="Images_Desktop_1\image 6.png" class="my_photo" alt="Мое фото">
+            <div class="about_me_all_text">
+            <div class="about_me_text">
+            <p>Всем привет! Меня зовут Аня, и это мой личный блог. Здесь ты найдёшь рассказы о моих путешествиях, снимки на плёнку, рецепты, обзоры на книги. В общем, тексты о том, что мне инетресно.</p>
+            <p>Я работаю копирайтером, поэтому мой блоге — это ещё и моё
+                портфолио. Ниже размещены несколько моих лучших
+                рабочих текстов. Буду рада новым сотрудничествам!
+            </p>
+            <p>Если вы хотите написать мне — это можно сделать в соцсетях
+                или через <a href="#write_form">форму</a>. Всегда приятно услышать обратную связь
+                от читателей и познакомиться поближе. 
+            </p>
+            <p>
+                Приятного чтения!
+            </p>
+        </div>
+            <div class="about_me_italic">
+            <p>Я верю, что каждый раз пробуя новое,
+                выходящее за зону моего комфорта,
+                я действительно узнаю настояющую
+                себя. 
+            </p>
+            </div>
+            </div>
+        </div>  
+        </section>
+        <section id="id_portfolio">
+            <h2>Портфолио</h2>
+            <div class="portfolio">
+            <div class="portfolio_1">
+                <article>
+                    <h3>Блог HTML Academy</h3>
+                    <h4>«Как учиться продуктивно»</h4>
+                    <p>Про основные методы обучения,
+                        которые помогут быстро и надолго
+                        запомнить информацию.</p>
+                </article>
+            </div>
+            <div class="portfolio_2">
+                <article>
+                    <h3>Журнал «LNK»</h3>
+                    <h4>«Зачем поцели нужны человеку?
+                        И какие они бывают»</h4>
+                    <p>Поцелуи — повсеместная ежедневная
+                        практика. Но зачем люди целуются? Какие смысли вкладывают в этот ритуал? И где корни этой практики?</p>
+                </article>
+            </div>
+            <div class="portfolio_3">
+                <article>
+                    <h3>Журнал «Т — Л»</h3>
+                    <h4>«Советы по эффективной
+                        удалённой работе»</h4>
+                    <p>Поделилась лайфхаками, которые помогают мне работать продуктивно из дома. </p>
+                </article>
+            </div> 
+        </div>    
+        <input type="submit" value="Показать еще" class="see_more"> 
+        </section>
+        <section class="write">
+            <h2>Написать мне</h2>
+            <form method="get" id="write_form">
+                <div class="data">
+                    <div class="data_about">
+                        <div class="name">
+                <label for="your_name">Ваше имя</label>
+                <br>
+                <input type="text" id="your_name" name="name_of_user" placeholder="Иванов Иван" class="m_name" required>
+            </div>
+            <div class="mail">
+                <label for="your_email">Email</label>
+                <br>
+                <input type="email" id="your_email" name="email_of_user" placeholder="google@gmail.com" required">
+            </div>
+              </div>
+              <div class="message_about">
+                <label for="your_message">Сообщение</label>
+                <br>
+                <textarea id="your_message" name="message" placeholder="Напишите здесь ваше сообщение" class="text_a" ></textarea>
+            </div>
+            <input type="submit" value="Отправить" class="button_send b_send">
+            </div>
+            </form>
+        
+        </section>
+    </main>
+    <footer class="foot">
+        <a href="">ВК</a>
+        <a href="">Телеграмм</a>
+        <a href="">Инстаграмм</a>
+        <a href="">Твиттер</a>
+    </footer>
+    <script src='filter.js'></script>
+    <script src="comments_check.js"></script>
+</body>
+</html>
